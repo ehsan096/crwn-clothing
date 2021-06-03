@@ -1,0 +1,62 @@
+.ContactContainer{
+ margin: 8% 25%;
+  h1{
+    text-align: -webkit-center;
+  }
+  hr{
+    width: 18%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  p{
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    input[type=text], input[type=email]{
+      height: 40px;
+      width: 49%;
+      padding: 10px;
+      font-size: large;
+      background-color: #F6F6F6;
+      border: none;
+    }
+  }
+
+  input[type=text]{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    background-color: #F6F6F6;
+    border: none;
+    margin-bottom: 10px;
+    
+  }
+  textarea{
+    width: 100%;
+    resize: vertical;
+    padding: 10px;
+    font-size:x-large;
+    background-color: #F6F6F6;
+    border: none;
+    margin-bottom: 10px;
+
+  }
+  button{
+    height: 40px;
+    width: 65px;
+    background-color: black;
+    border: none;
+    float: right;
+    cursor: pointer;
+    color: white;
+    font-size:14px;
+  }
+  
+    
+}
